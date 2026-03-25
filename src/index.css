@@ -4,9 +4,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-muted: #536878;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-pretendard: 'Pretendard', 'Apple SD Gothic Neo', -apple-system, sans-serif;
+  --font-pretendard: 'Pretendard Variable', 'Pretendard', 'Apple SD Gothic Neo', -apple-system, sans-serif;
 }
 
 :root {

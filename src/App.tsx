@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useCallback, useMemo, useDeferredValue } from "react";
 import { DEFAULT_ETFS, DEFAULT_FX } from "./constants/etfs";
 import { fmtUSD, fmtKRW } from "./utils/format";
@@ -9,7 +7,7 @@ import { ShareInputGrid } from "./components/SharedInputGrid";
 import { SummaryCards } from "./components/SummaryCards";
 import { Charts } from "./components/Charts";
 
-export default function DividendCalculator() {
+export default function App() {
   const [page, setPage] = useState("main");
   const [etfs, setEtfs] = useState(DEFAULT_ETFS.map((e) => ({ ...e })));
   const [months, setMonths] = useState(60);

@@ -4,7 +4,15 @@
       "Bash(npx tsc:*)",
       "Bash(npm ls:*)",
       "Bash(npm install:*)",
-      "Bash(npx next:*)"
+      "Bash(npx next:*)",
+      "Bash(grep -v '^\\\\.\\\\.$')",
+      "Bash(grep -v '^\\\\.$')",
+      "Bash(grep -v '^\\\\.git$')",
+      "Bash(grep -v '^\\\\.claude$')",
+      "Bash(rm -rf app docs public .next node_modules)",
+      "Bash(rm -f eslint.config.mjs next-env.d.ts next.config.ts package-lock.json package.json postcss.config.mjs tsconfig.json tsconfig.tsbuildinfo README.md skills-lock.json)",
+      "Bash(npm create:*)",
+      "Bash(npx vite:*)"
     ]
   }
 }
